@@ -3,11 +3,12 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"dev": "vite dev",
 		"build": "vite build",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
-	"homepage": "https://Dmitry-polyakov.github.io/GOST/",
+	"homepage": "https://dmitry-polyakov.github.io/GOST/",
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.8",
