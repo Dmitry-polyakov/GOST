@@ -1,0 +1,28 @@
+{
+	"name": "tetris",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "vite build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"homepage": "https://Dmitry-polyakov.github.io/GOST/",
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"gh-pages": "^6.1.1",
+		"svelte": "^4.2.7",
+		"svelte-check": "^4.0.0",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"chart.js": "^4.4.9",
+		"chartjs": "^0.3.24",
+		"docx": "^9.5.0"
+	}
+}
